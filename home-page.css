@@ -1,0 +1,260 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  height: 1000px;
+}
+
+.sidebar {
+  width: 15%;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-picture img {
+  padding: 30px;
+  width: 200px;
+}
+
+.container-menu {
+  position: relative;
+}
+
+.menu {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  background-color: #0f1b38;
+  color: white;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.sidebar-link {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 30px;
+  align-items: center;
+}
+
+.sidebar-link:hover {
+  background-color: #39486c;
+  cursor: pointer;
+}
+
+.sidebar-link i {
+  width: 30px;
+  padding-right: 15px;
+}
+
+.sidebar-link div a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.name-status div {
+  color: yellow;
+}
+.tambah-ide {
+  position: absolute;
+  bottom: 30px;
+  left: 35px;
+}
+
+.tambah-ide i {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.tambah-ide i:hover {
+  font-size: 38px;
+  cursor: pointer;
+}
+
+.ide-grid {
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  flex-direction: column;
+  flex: 1fr;
+}
+
+.ide-grid .idea:first-child {
+  margin-top: 150px;
+  margin-bottom: 48px;
+
+}
+
+.idea {
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+}
+
+.idea:hover {
+  cursor: pointer;
+}
+
+.container-idea {
+  padding-right: 50px;
+}
+
+.contributor-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.name-tier div:last-child {
+  background-color: #696a6a;
+  width: 35px;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 3px;
+  font-size: 12px;
+}
+
+.profile-photo {
+  padding-right: 10px;
+}
+
+.profile-photo img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 25px;
+}
+
+.title-idea{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.title-idea div:first-child {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.title-idea div:last-child {
+  border: 1px solid;
+  padding: 5px 10px;
+}
+
+.desc-idea{
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.btn-idea button {
+  background-color: #0f1b38;
+  color: #ffffff;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.btn-idea button:hover {
+  background-color: #39486c;
+  cursor: pointer;
+}
+
+.photo-idea img{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+}
+
+.search-container {
+  width: 15%;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+}
+
+.search-bar {
+  position: relative;
+}
+.search {
+  position: relative;
+  right: 0px;
+  left: 45px;
+  top: 150px;
+}
+
+.search-input {
+  background-color: #0f1b38;
+  padding: 12px;
+  border-radius: 30px;
+}
+
+.search-input i{
+  color: #ffffff;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+.search-input input{
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+}
+
+.kategori {
+  position: relative;
+  background-color: #0f1b38;
+  margin-top: 15px;
+  color: #ffffff;
+  height: 150px;
+  border-radius: 25px;
+}
+
+.kategori div:first-child {
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.tipe-kategori{
+  background-color: #ffffff;
+  color: #000;
+  position: absolute;
+  left: 15px;
+  right: 0;
+  bottom: 15px;
+  top: 40px;
+  border-radius: 15px;
+}
+
+.tipe-kategori div {
+  display: flex;
+  flex-direction: column;
+}
+
+.tipe-kategori div label {
+  padding-bottom: 8px;
+}
+
+.tipe-kategori div button {
+  width: 55px;
+  height: 25px;
+  border: 1px solid #0f1b38;
+  border-radius: 5px;
+  background-color: #0f1b38;
+  color: #ffffff;
+}
+
+.tipe-kategori div button:hover {
+  transition: all .5s ease;
+  background-color: #ffffff;
+  color: #0f1b38;
+  cursor: pointer;
+}

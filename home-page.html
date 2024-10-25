@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home-page.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Home Page</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="sidebar">
+    <div class="logo">
+      <div class="logo-picture">
+        <img src="foto/ideku-logo.png">
+      </div>
+    </div>
+
+    <div class="container-menu">
+      <div class="menu">
+        <div class="sidebar-link">
+          <i class="fa-regular fa-user"></i>
+          <div class="name-status">Reynaldi</div>
+        </div>
+        <div class="sidebar-link">
+          <i class="fa-solid fa-house"></i>
+          <div>Home</div>
+        </div>
+        <a href="login.html" style="text-decoration: none; color: #ffffff;">
+          <div class="sidebar-link">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              <div>Logout</div>
+          </div>
+        </a>
+        <div class="tambah-ide">
+          <a href="add-idea.html">
+            <i class="fa-regular fa-square-plus"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Ideas -->
+  <section class="ide-grid">
+    <!-- Idea 1 -->
+    <div class="idea">
+      <div class="container-idea">
+        <!-- Profile -->
+        <div class="contributor-profile">
+          <div class="profile-photo">
+            <img src="foto/indy.jpeg">
+          </div>
+          <div class="name-tier">
+            <div>Nindy</div>
+            <div>Tier III</div>
+          </div>
+        </div>
+        <!-- Idea Content -->
+        <div class="title-idea">
+          <div>Judul Idea</div>
+          <div>Kategori 2</div>
+        </div>
+        <div class="desc-idea">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis voluptates sit molestiae pariatur tempora animi, numquam atque deleniti veritatis ratione aliquam rem omnis ad! Quaerat atque tenetur veritatis quae architecto voluptate mollitia officiis, ad nulla illum aut quam veniam iste repellat nemo laboriosam odio eveniet et ex corrupti dolorem expedita! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam sed eum eaque, quos aspernatur impedit id dolorem quis unde quasi.
+        </div>
+        <div class="btn-idea">
+          <button><i class="fa-solid fa-eye" style="color: #ffffff;"></i> more</button>
+          <button><i class="fa-solid fa-thumbs-up" style="color: #ffffff;"></i></button>
+          <button><i class="fa-solid fa-share" style="color: #ffffff;"></i></button>
+        </div>
+      </div>
+      <div class="photo-idea">
+        <img src="foto/ide1.jpg">
+      </div>
+    </div>
+
+    <!-- Idea 2 -->
+    <div class="idea">
+      <div class="container-idea">
+        <!-- Profile -->
+        <div class="contributor-profile">
+          <div class="profile-photo">
+            <img src="foto/Jaedil.jpg">
+          </div>
+          <div class="name-tier">
+            <div>Andi Jaedil</div>
+            <div>Tier II</div>
+          </div>
+        </div>
+        <!-- Idea Content -->
+        <div class="title-idea">
+          <div>Judul Idea</div>
+          <div>Kategori 1</div>
+        </div>
+        <div class="desc-idea">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis voluptates sit molestiae pariatur tempora animi, numquam atque deleniti veritatis ratione aliquam rem omnis ad! Quaerat atque tenetur veritatis quae architecto voluptate mollitia officiis, ad nulla illum aut quam veniam iste repellat nemo laboriosam odio eveniet et ex corrupti dolorem expedita! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam sed eum eaque, quos aspernatur impedit id dolorem quis unde quasi.
+        </div>
+        <div class="btn-idea">
+          <button><i class="fa-solid fa-eye" style="color: #ffffff;"></i> more</button>
+          <button><i class="fa-solid fa-thumbs-up" style="color: #ffffff;"></i></button>
+          <button><i class="fa-solid fa-share" style="color: #ffffff;"></i></button>
+        </div>
+      </div>
+      <div class="photo-idea">
+        <img src="foto/ide2.jpg">
+      </div>
+    </div>
+  </section>
+
+  <!-- Search bar -->
+  <section class="search-container">
+    <div class="search-bar">
+      <div class="search">
+        <!-- Input search -->
+        <div class="search-input">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text">
+        </div>
+        <!-- Kategori -->
+        <div class="kategori">
+          <div>Kategori</div>
+          <div class="tipe-kategori">
+            <div>
+              <label><input type="radio">Kategori 1</label>
+              <label><input type="radio">Kategori 2</label>
+              <button>Filter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

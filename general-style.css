@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.judul-b{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #15202B;
+    font-size: larger
+}
+
+.text-b{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #15202B;
+    font-size: small;
+}
+
+.judul-w{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: larger
+}
+
+.text-w{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: small;
+}
